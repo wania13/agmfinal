@@ -1,4 +1,24 @@
 
+jQuery(function($){
+  var windowWidth = 900 ;
+
+  $(window).resize(function() {
+    if( $(window).width() <= windowWidth) {
+      location.reload();
+      return;
+    }
+    else{
+      location.reload();
+    }
+  });
+});
+
+
+
+
+
+
+
 
 
 $('.slider-content').slick({
@@ -28,7 +48,6 @@ $(document).ready(function(){
     $('.tohide').toggleClass('show');
   });
 });
-
 
 
 $('#press').on('click', 'a', function() {
@@ -121,4 +140,3 @@ anime.timeline({loop: true})
   });
 
 
- 

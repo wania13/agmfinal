@@ -755,8 +755,8 @@ ul li{
 	}
 
 	.cover img{
-	height: 50% !important;
-	width: 70% !important;
+	height: 60% !important;
+	width: 50% !important;
 	position: absolute;
 	left: 50%;
     top: 50%;
@@ -765,7 +765,7 @@ ul li{
 
 	.cover{animation-name: impactsmall;
 	animation-duration: 5s;
-	animation-delay: 6s;
+	animation-delay: 3s;
 	animation-fill-mode: forwards;
     }
 
